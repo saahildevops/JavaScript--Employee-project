@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Javascript Assignment(Filter/Add user)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+<script src="filter.js"></script>
+<body>
+<p>Filter ui cards via their profession.</p>
+<div id="select_profession">
+    <select id="profession">
+        <option value="">Profession</option>
+      </select>
+</div>
+<div id="filter_data_div"></div>
+
+<div id="filter_button">
+    <a href="javascript:;" id="filter" onclick="getFilterProfessionJson('filter')">Filter</a>
+</div>
+
+
+<!-- ADD NEW USER -->
+<div id="add_user_form">
+    <div id="add_user_header">
+        <p>Add a new user</p>
+    </div>
+    <form id="add_new_user" onsubmit="addNewUserData();return false">
+        <div id="new_user_fields" width="100%">
+            <div>
+                <label for="name">Enter Name</label><br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="profession">Enter Profession</label><br>
+                <input type="text" id="profession" class="profession1" name="profession" required>
+            </div>
+            <div>
+                <label for="age">Enter Age</label><br>
+                <input type="number" id="age" name="age" required>
+            </div>
+        </div>
+        <div>
+            <input id="submit1" type="submit" value="Add User" >
+        </div>
+
+      </form>
+</div>
+
+<div id="new_user_add_status" class="displayNone">
+   New user data is added successfully.
+</div>
+</body>
+</html>

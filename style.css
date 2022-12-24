@@ -1,0 +1,113 @@
+html,body {
+    font-family:"Verdana",sans-serif;
+    background-color: black;
+    color: white;
+}
+p{
+    margin: 40px;
+}
+#profession{
+    background-color: black;
+    line-height: 3px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+}
+.data_row{
+    display: table;
+    border:  solid white 1px;
+    border-radius: 10px;
+    padding:10px;
+    
+    margin: 30px;
+    
+}
+
+.data_column {
+    margin: 30px;
+    padding-left: 10px;
+}
+
+#column_name {
+    width: 150px !important;
+}
+
+#column_profession {
+    width: 250px !important;
+}
+
+#filter_button{
+    background: #fff;
+    font-size: 15px;
+    line-height: 3;
+    margin: 30px;
+    text-align: center;
+    width:170px;
+    margin-top: 16px;
+}
+#filter_button a{
+    text-decoration: none !important;
+    color: #000;
+}
+#submit1{
+    background: #fff;
+    font-size: 15px;
+    line-height: 3;
+    margin: 30px;
+    text-align: center;
+    width:170px;
+    margin-top: 30px;
+}
+
+#add_user_header{
+    margin-left: 0px;
+}
+
+#add_user_form{
+    
+    padding-top:10px;
+}
+
+#new_user_add_status {
+    color:green;
+    font-weight: bold;
+}
+
+.displayNone {
+    display: none;
+}
+#new_user_fields{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#name{
+    width: 300px;
+    background-color: black;
+    border: solid white 1px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    margin: 15px;
+}
+.profession1{
+    width: 300px;
+    background-color: black;
+    border: solid white 1px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    margin: 15px;
+}
+#age{
+    width: 300px;
+    background-color: black;
+    border: solid white 1px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    margin: 15px;
+}
