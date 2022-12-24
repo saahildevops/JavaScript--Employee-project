@@ -9,8 +9,8 @@
 <script src="filter.js"></script>
 <body>
 <p>Filter ui cards via their profession.</p>
-<div id="select_profession">
-    <select id="profession">
+<div id="select_profession" >
+    <select id="profession" class="profession_select">
         <option value="">Profession</option>
       </select>
 </div>
@@ -27,7 +27,7 @@
         <p>Add a new user</p>
     </div>
     <form id="add_new_user" onsubmit="addNewUserData();return false">
-        <div id="new_user_fields">
+        <div id="new_user_fields" width="100%">
             <div>
                 <label for="name">Enter Name</label><br>
                 <input type="text" id="name" name="name" required>

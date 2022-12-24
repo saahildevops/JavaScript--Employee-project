@@ -9,7 +9,7 @@ var userobj = userData;
 function filteruserData(profession){
     let data = userobj;
     if(profession!=''){
-        data = userobj.filter(user => user.profession === profession);
+        data = userobj.filter(user => user.profession.toLowerCase() === profession.toLowerCase());
     }
     return data;
 }
